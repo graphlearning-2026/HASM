@@ -2,9 +2,9 @@
 
 ## Overview
 
-**HASM** (Hop-wise Adaptive Spectral Message-passing) addresses a fundamental limitation in spectral GNNs — existing methods apply a **single shared filter** across all propagation depths, treating 1-hop and 5-hop neighborhoods identically despite carrying structurally distinct information.
+**HASM** (Hop-wise Adaptive Spectral Message-passing) addresses a fundamental limitation in spectral GNNs. Existing methods apply a **single shared filter** across all propagation depths, treating 1-hop and 5-hop neighborhoods identically despite carrying structurally distinct information.
 
-HASM assigns an **independent Chebyshev spectral filter** to each hop distance. Each filter is parameterized by its own learnable polynomial coefficients and a per-channel gating mechanism, enabling the model to simultaneously learn different frequency responses at different propagation depths — low-pass smoothing for some hops, high-pass filtering for others.
+HASM assigns an **independent Chebyshev spectral filter** to each hop distance. Each filter is parameterized by its own learnable polynomial coefficients and a per-channel gating mechanism, enabling the model to simultaneously learn different frequency responses at different propagation depths, low-pass smoothing for some hops, high-pass filtering for others.
 
 ---
 
