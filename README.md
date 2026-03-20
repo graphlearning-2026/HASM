@@ -12,7 +12,6 @@ HASM assigns an **independent Chebyshev spectral filter** to each hop distance. 
 
 - **Per-hop adaptive spectral filters** — independent Chebyshev filter per hop distance, allowing the model to learn distinct frequency responses at each structural scale
 - **Concatenate-and-transform aggregation** — preserves individual hop information that is lost under standard additive aggregation
-- **Theoretical guarantees** — formal proof that GPR-GNN is a special case of HASM, and that additive aggregation is provably non-injective over hop configurations
 - **Performance gains of 0.08% to 6.27%** over state-of-the-art baselines across heterophilic benchmarks
 
 ---
